@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+}
+p {
+  font-family: arial;
+  color: white;
+}
+.presentacion {
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: top;
+}
+
+.retrato {
+  width: 450px;
+  opacity: 0.7;
+}
+.nombre {
+  color: rgb(211, 191, 191);
+  vertical-align: top;
+  font-size: 80px;
+  margin-bottom: 70px;
+}
+.frase {
+  color: white;
+  font-size: 50px;
+  width: 600px;
+  line-height: 80px;
+  margin-left: 80px;
+}
+.palabra-resaltada {
+  color: red;
+  font-weight: 700;
+  font-size: 70px;
+}
+.mix {
+  padding-top: 75px;
+  text-align: center;
+  display: block;
+}
+.sets {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.logo {
+  width: 40px;
+  vertical-align: middle;
+  margin-left: 15px;
+  display: inline-block;
+}
+.set {
+  text-align: left;
+  padding-top: 50px;
+  display: inline-block;
+  width: 26%;
+  vertical-align: top;
+}
+.imagen-set {
+  width: 100%;
+  cursor: pointer;
+}
+.titulo-set {
+  padding-top: 20px;
+  color: dimgrey;
+  text-align: center;
+}
+.container-sets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.titulo-playlist {
+  padding-top: 20px;
+  color: dimgrey;
+  text-align: center;
+}
+.lista {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.imagen-playlist {
+  width: 100%;
+  cursor: pointer;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.playlist {
+  text-align: left;
+  padding-top: 50px;
+  width: 25%;
+  vertical-align: top;
+}
+.container-playlist {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  column-gap: 5%;
+}
+.logo-redes {
+  text-align: center;
+  width: 5%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.container-redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  column-gap: 10%;
+}
+
+.link-social {
+  width: fit-content;
+  height: fit-content;
+  border: 1px red solid;
+}
